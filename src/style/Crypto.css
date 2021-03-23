@@ -1,0 +1,29 @@
+main {
+    display: grid;
+    grid-template-columns: 150fr 150fr 150fr;
+    grid-gap: 20px;
+}
+
+span {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    color: #171717;
+    text-align: center;
+    animation: changeCardColor 5s;
+}
+@keyframes changeCardColor {
+    from {
+        background-color: #fff;
+        color: #171717;
+    }
+    to {
+        background-color: #171717;
+        color: #fff;
+    }
+}
+/* span:hover {
+    background-color: #171717;
+    color: #fff;
+} */
+
